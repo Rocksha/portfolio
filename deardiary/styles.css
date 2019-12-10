@@ -1,0 +1,56 @@
+body {
+    background-image:url("images/cover1.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    color:white;
+    text-align:center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+
+}
+html, body {
+    height:100%;
+    width:100% !important; 
+    margin:0;
+    padding:0;
+}
+.inner-container {
+       padding-top:70px;
+
+}
+.container {
+    width: 100% ;
+}
+textarea {
+    overflow-y: scroll;
+    resize : none;
+}
+.form-control, checkbox {
+    margin:10px 0px;
+}
+#signup {
+    display: none;
+}
+.toggle {
+    margin:10px 0px;
+        text-decoration: underline;
+
+}
+#logout {
+    margin:10px;
+    position:relative;
+    float:right;
+}
+.title {
+    position:relative;
+    float:left;
+    margin-top: 25px;
+    font-size:1.5em;
+    letter-spacing: 1.5px;
+    
+}
+@media (min-width:992px) {
+    .inner-container {
+        width:550px;
+    }
+}
